@@ -2,7 +2,7 @@ import games from "../constants/games";
 import { Game } from "../types/game";
 import { Category } from "../types/categories";
 
-let debounceTimer: NodeJS.Timeout | null = null;
+let debounceTimer: any = null;
 
 export async function getGamesByCategory(category: Category, search?: string, developerId?: number): Promise<Game[]> {
   return new Promise((resolve) => {

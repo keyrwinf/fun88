@@ -9,7 +9,6 @@ import categories from '../../constants/categories';
 import gameDevelopers from '../../constants/developers';
 import { Category } from '../../types/categories';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 
 import Banner from '../../assets/banner.webp';
 
